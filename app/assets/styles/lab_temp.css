@@ -1,7 +1,12 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(./assets/DINNextLTArabic-Bold.ttf) format('truetype');
+    src: url(../../assets/fonts/DINNextLTArabic-Bold.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../../assets/fonts/DINNextLTArabic-Regular.ttf) format('truetype');
   }
 
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
@@ -9,9 +14,12 @@ body, html {
     height: 100%
   }
 
+h3 {
+  font-family: mySecondFont;
+}
   .bgimg {
     /* Background image */
-    background-image: url('./assets/innovateTemp_3.png');
+    background-image: url('../../assets/images/innovateTemp_3.png');
     /* Full-screen */
     height: 100%;
     /* Center the background image */
@@ -58,8 +66,7 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.541);
-
+    background-color: rgba(255, 255, 255, 0.603);
   }
   
   /* Style the <hr> element */
