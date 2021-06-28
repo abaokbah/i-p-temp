@@ -1,0 +1,18 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../assets/fonts/DINNextLTArabic-Bold.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../../assets/fonts/DINNextLTArabic-Regular.ttf) format('truetype');
+  }
+
+$mainBlue: #0066b3;
+$mainGray: #636466;
+$mainOrange: #f26722;
+$mainOrange_faded: #f26722bb;
+
+body, html {
+    height: 100%
+}

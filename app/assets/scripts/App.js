@@ -1,4 +1,5 @@
-import 'file:///C:/Users/Admin/my_projects/i-p-temp/app/assets/styles/styles.css'
-console.log('something something')
+import '../styles/styles.css'
 
-alert('who\'s out there');
+if(module.hot) {
+    module.hot.accept()
+}
