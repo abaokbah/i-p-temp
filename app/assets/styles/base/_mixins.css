@@ -1,0 +1,29 @@
+@define-mixin atSmall {
+    @media screen and (min-width: 300px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media screen and (min-width: 500px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atLarge {
+    @media screen and (min-width: 750px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin landscape {
+    @media screen and (max-height: 450px){
+        @mixin-content;
+    }
+}
+
+@define-mixin landscapeSmall {
+    @media screen and (max-height: 360px){
+        @mixin-content;
+    }
+}
