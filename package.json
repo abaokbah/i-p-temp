@@ -4,6 +4,7 @@
   "main": "lab_temp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "dev": "webpack serve"
   },
   "dependencies": {
